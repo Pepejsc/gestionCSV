@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(240, 248, 255); /* RGB: AliceBlue */
+    color: rgb(33, 37, 41); /* RGB: Darker Gray */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: cmyk(0, 0, 0, 0.1); /* CMYK: Light Gray */
+  }
+  
+  .navbar-brand {
+    color: rgb(0, 123, 255) !important; /* RGB: Primary Blue */
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: rgb(33, 37, 41) !important; /* RGB: Darker Gray */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: rgb(0, 123, 255) !important; /* RGB: Primary Blue */
+    font-weight: bold;
+  }
+  
+  /* Main Content */
+  #file-upload-section {
+    background-color: cmyk(30, 100, 100, 10); /* CMYK: Custom Deep Red */
+  }
+  
+  #csv-display-print {
+    background-color: cmyk(10, 0, 0, 0); /* CMYK: Light Cyan */
+    border: none; /* remove border */
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: rgb(0, 123, 255); /* RGB: Primary Blue */
+    border: none;
+  }
+  
+  .btn-success {
+    background-color: rgb(40, 167, 69); /* RGB: Green */
+    border: none;
+  }
+  
+  .btn-warning {
+    background-color: rgb(255, 193, 7); /* RGB: Yellow */
+    border: none;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: cmyk(75, 68, 67, 90); /* CMYK: Almost Black */
+    color: cmyk(0, 0, 0, 0); /* CMYK: White */
+    margin-top: 2rem;
+  }
+  
+  .custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .csv-display-section {
+    margin-bottom: 1rem;
+    border: none; /* remove border */
+  }
+  
+  .csv-display-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .csv-display-section th, .csv-display-section td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #dee2e6;
+  }
+  
+  .csv-display-section th {
+    background-color: #f8f9fa;
+  }
+  
+  .centered-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
